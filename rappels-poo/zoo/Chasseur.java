@@ -1,3 +1,4 @@
+package zoo;
 public interface Chasseur {
     public void chasser(Proie proie);
 

@@ -1,3 +1,4 @@
+package zoo;
 public class Chien extends Animal implements Chasseur {
     public Chien(String nom) {
         super(nom);

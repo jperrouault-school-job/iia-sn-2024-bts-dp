@@ -1,5 +1,7 @@
+package zoo;
 public class Chat extends Animal implements Chasseur, Proie {
     private int age;
+    public static int counter = 0;
 
     public int getAge() {
         return age;
@@ -13,6 +15,7 @@ public class Chat extends Animal implements Chasseur, Proie {
 
     public Chat(String nom) {
         super(nom);
+        counter++;
         System.out.println("CREATION D'UN CHAT");
     }
 

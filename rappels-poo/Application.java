@@ -46,5 +46,9 @@ public class Application {
         System.out.println(tom);
 
         tom.chasser(jerry);
+
+        System.out.println(Chat.counter);
+        System.out.println(tom.counter);
+        System.out.println(albert.counter);
     }
 }

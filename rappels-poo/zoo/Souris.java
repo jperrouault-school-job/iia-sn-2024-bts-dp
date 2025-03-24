@@ -1,3 +1,4 @@
+package zoo;
 public class Souris extends Animal implements Proie {
     public Souris(String nom) {
         super(nom);
