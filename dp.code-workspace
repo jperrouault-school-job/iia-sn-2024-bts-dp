@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "singleton"
+		},
+		{
+			"path": "factory"
+		},
+		{
+			"path": "abstractfactory"
 		}
 	],
 	"settings": {
