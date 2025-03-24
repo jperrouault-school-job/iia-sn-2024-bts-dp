@@ -10,7 +10,7 @@ public class Application {
         int a = 0;
         Integer b = 6;
 
-        Chat albert = new Chat();
+        Chat albert = new Chat("Albert");
         // Animal lanimal = new Animal();
 
         albert.dormir();
@@ -24,9 +24,22 @@ public class Application {
         // // System.out.println("Le chat s'appelle " + albert.nom);
         // System.out.println("Le chat s'appelle " + albert.getNom());
         
+        String ss = "A";
+        char sss = 'A' + 'B';
+        char ssss = 97;
 
-        Chat tom = new Chat();
-        Souris jerry = new Souris();
+        int aa = 13;
+        int aaa = 013;
+        int aaaa = 0x13;
+        int aaaaa = 0b11;
+        
+        System.out.println(aa);
+        System.out.println(aaa);
+        System.out.println(aaaa);
+        System.out.println(aaaaa);
+
+        Chat tom = new Chat("Tom");
+        Souris jerry = new Souris("Jerry");
 
         System.out.println(tom);
 

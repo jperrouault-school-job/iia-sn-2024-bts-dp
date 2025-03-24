@@ -1,14 +1,5 @@
 public class Chat extends Animal implements Chasseur, Proie {
-    private String nom;
     private int age;
-
-    public String getNom() {
-        return nom;
-    }
-
-    public void setNom(String nom) {
-        this.nom = nom;
-    }
 
     public int getAge() {
         return age;
@@ -20,7 +11,8 @@ public class Chat extends Animal implements Chasseur, Proie {
         }
     }
 
-    public Chat() {
+    public Chat(String nom) {
+        super(nom);
         System.out.println("CREATION D'UN CHAT");
     }
 

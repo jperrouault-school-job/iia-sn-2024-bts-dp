@@ -1,4 +1,8 @@
 public class Souris extends Animal implements Proie {
+    public Souris(String nom) {
+        super(nom);
+    }
+
     @Override
     public void dormir() {
         System.out.println("La souris dort ...²");
@@ -6,11 +10,6 @@ public class Souris extends Animal implements Proie {
 
     @Override
     public void mourir(Chasseur chasseur) {
-        System.out.println("La souris se fait chasser par " + chasseur.getClass().getSimpleName());
-    }
-
-    @Override
-    public String toString() {
-        return "Une souris";
+        System.out.println("La souris se fait chasser par " + chasseur);
     }
 }
