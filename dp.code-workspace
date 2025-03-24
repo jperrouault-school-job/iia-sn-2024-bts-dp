@@ -1,5 +1,8 @@
 {
 	"folders": [
+		{
+			"path": "rappels-poo"
+		}
 	],
 	"settings": {
 		"java.jdt.ls.java.home": "/usr/lib/jvm/jdk-21.0.5-oracle-x64/",
