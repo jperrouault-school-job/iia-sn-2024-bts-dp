@@ -1,3 +1,5 @@
+import zoo.Chat;
+import zoo.Souris;
 
 public class Application {
     // psvm
