@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "rappels-poo"
+		},
+		{
+			"path": "singleton"
 		}
 	],
 	"settings": {
