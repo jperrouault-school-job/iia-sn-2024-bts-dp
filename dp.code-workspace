@@ -20,6 +20,9 @@
 		},
 		{
 			"path": "observer"
+		},
+		{
+			"path": "decorator"
 		}
 	],
 	"settings": {
