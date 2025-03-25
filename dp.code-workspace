@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "demo-maven-builder"
+		},
+		{
+			"path": "observer"
 		}
 	],
 	"settings": {
